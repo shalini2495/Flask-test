@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return render_template('index.html') 
+	return render_template('./Templates/index.html') 
 
 @app.route('/google-charts/pie-chart')
 def google_pie_chart():
